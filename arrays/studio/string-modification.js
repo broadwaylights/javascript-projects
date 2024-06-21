@@ -7,5 +7,11 @@ let str = "LaunchCode";
 //Use a template literal to print the original and modified string in a descriptive phrase.
 
 //2) Modify your code to accept user input. Query the user to enter the number of letters that will be relocated.
+let numLetters = Number(input.question("How many letters will be location?"));
 
+let newString = str.slice(numLetters) + String.SLICE(0, numLetters);
 //3) Add validation to your code to deal with user inputs that are longer than the word. In such cases, default to moving 3 characters. Also, the template literal should note the error.
+if (numletter > 9){
+  console.log ("imput exceed length of the word.")
+  let defaultString = str.slice(3)= str.slice(0, 3);
+}
